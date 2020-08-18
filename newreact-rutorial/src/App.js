@@ -1,14 +1,13 @@
-import React, { Component } from 'react';
-import Stoned from './Stoned';
+import React from 'react';
+import Stoned from './Components/Stoned';
+import Jute from './Components/Jute';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="container">
-        <Stoned />
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div>
+      <Stoned /> <Jute />
+    </div>
+  );
 }
 
 export default App;
