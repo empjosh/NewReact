@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Stoned() {
-  return <div></div>;
-}
+const Stoned = () => {
+  return <div>Hello</div>;
+};
 
 export default Stoned;
