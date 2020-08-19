@@ -1,0 +1,7 @@
+.app-header {
+  font-weight: bold;
+  border-bottom: 0.5px solid rgb(59, 18, 97);
+  padding: 0.4rem;
+  display: flex;
+  justify-items: center;
+}
