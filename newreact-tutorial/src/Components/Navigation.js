@@ -1,7 +1,8 @@
 import React from 'react';
+import './Heads.css';
 
 function Navigation() {
-  return <nav>The nav</nav>;
+  return <nav className="Heads">The nav</nav>;
 }
 
 export default Navigation;
